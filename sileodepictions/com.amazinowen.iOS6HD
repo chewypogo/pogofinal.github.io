@@ -1,0 +1,126 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/CF13Header.png",
+  "tintColor": "#9d09f2",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "iOS 6 [HD] [Theme]",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A classical iOS 6 theme to bring back that old feeling!",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "Theme has not been made yet",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+         {
+            "class": "DepictionScreenshotsView",
+            "itemSize": "{160, 275.41333333333336}",
+            "itemCornerRadius": 6,
+            "screenshots": [
+         {
+            "accessibilityText": "Screenshot",
+            "url": ""
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": ""
+         }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "Requires",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "Snowboard, Anemone",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.0.5",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "21/02/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "OW3Nz R3PO",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "v0.2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 First Release",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

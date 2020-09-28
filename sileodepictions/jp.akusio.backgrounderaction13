@@ -1,0 +1,120 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "#9d09f2",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "Backgrounderaction13",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "Backgrounder Action used for Milkyway 2",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "added to my repo temporally due to akusio's repo is offline",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "markdown": "Requires",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "substrate",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "ccsupport",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "0.1.4",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "26/06/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "akusio",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+   {
+          "title": "v0.1.4",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Added to repo temporally",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

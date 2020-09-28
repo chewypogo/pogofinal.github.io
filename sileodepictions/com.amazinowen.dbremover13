@@ -1,0 +1,152 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/DBR13Header.png",
+  "tintColor": "#eab5f7",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "DBRemover13",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A simple tweak to remove the dock background tested on iOS 13 - 13.5.1",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+         {
+            "class": "DepictionScreenshotsView",
+            "itemSize": "{160, 275.41333333333336}",
+            "itemCornerRadius": 6,
+            "screenshots": [
+         {
+            "accessibilityText": "Screenshot",
+            "url": "https://unkn0wen-guy.github.io/repo/depictions/com.amazinowen.dbremover13/screenshots/DBR.jpg"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://unkn0wen-guy.github.io/repo/depictions/com.amazinowen.dbremover13/screenshots/DBRu.jpg"
+         }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.2.0-1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "21/06/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "UGz Repo",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "v1.2.0-1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Added Support for iOS 13.5.1",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+		{
+          "title": "v0.1.2-2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Brought out of debug mode",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v0.1.1-1+Debug",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Fixed Depictions.",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v0.1.0-1+debug",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Initial release",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

@@ -1,0 +1,127 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/KB_Header.png",
+  "tintColor": "#8ef5a6",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "Kernbypass",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A kernel level bypass for Checkra1n and Unc0ver",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "install kern reboot fix https://repo.ipodhacks142.com",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "markdown": "Requires",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "substrate",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "0.0.3",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "26/06/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "Akusio",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "v0.0.3",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Added to repo temporally",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "v0.0.2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Added to repo temporally",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

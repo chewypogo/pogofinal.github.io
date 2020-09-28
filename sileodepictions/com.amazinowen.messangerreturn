@@ -1,0 +1,108 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "",
+  "tintColor": "#fac269",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "MessangerReturn12",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A tweak to add the back button on facebook messanger it redirects you to the facebook app, tested on iOS 12 - 12.4.5. This tweak no longer works with facebook messanger. END OF SUPPORT!",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.1.0",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "19/02/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "UGz R3PO",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "v1.1.0",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Fixed debug showing incorrect build number",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v1.0",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Initial release.",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

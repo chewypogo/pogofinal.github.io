@@ -1,0 +1,138 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/DBRHeader.png",
+  "tintColor": "#f78383",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "DBRemover12",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A simple tweak to remove the dock background tested on iOS 12 - 12.4.5.",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+         {
+            "class": "DepictionScreenshotsView",
+            "itemSize": "{160, 275.41333333333336}",
+            "itemCornerRadius": 6,
+            "screenshots": [
+         {
+            "accessibilityText": "Screenshot",
+            "url": "https://unkn0wen-guy.github.io/repo/depictions/com.amazinowen.dbremover/screenshots/DBR.jpg"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://unkn0wen-guy.github.io/repo/depictions/com.amazinowen.dbremover/screenshots/DBRu.jpg"
+         }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.3",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "19/02/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "UGz R3PO",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "v1.3",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Fixed debug issue and added Preference Bundle now shows in settings but is a dummy (ATM) Stay patient :)",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v1.2-1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 still facing a bug tweak not showing up after install in the repo will fix soon.",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v1.2.1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Minor update fixes some issues with respringing",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

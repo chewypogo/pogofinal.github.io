@@ -1,0 +1,58 @@
+.disable-hover {
+    pointer-events: none;
+}
+
+.link-item {
+    list-style-type: none;
+    padding: 17px 15px;
+    display: block;
+    color: #36bfc2 !important;
+    text-align: left;
+}
+
+.link-item:hover {
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
+    background-color: #fff;
+}
+
+html.can-touch .link-item:active{ /* disable hover effect when input is touch */
+    background-color: #f5f5f5;
+}
+
+.fa {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    background-image: linear-gradient(125deg,black,rgb(116, 116, 116),black);
+    background-size:400% 400%;
+    animation: bganimation 30s ease-in-out infinite;
+}
+.text{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 350px 0;
+    font-size: 22px;    
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}

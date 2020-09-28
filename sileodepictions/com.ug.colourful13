@@ -1,0 +1,130 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/CF13Header.png",
+  "tintColor": "#c591ed",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "Colourful13",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "A colourful icon theme to spice up your homescreen",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "To have icons in the settings download sparkdev's snowboard settings addon",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+         {
+            "class": "DepictionScreenshotsView",
+            "itemSize": "{160, 275.41333333333336}",
+            "itemCornerRadius": 6,
+            "screenshots": [
+         {
+            "accessibilityText": "Screenshot",
+            "url": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/depictions/com.ug.colourful13/screenshots/Page%201.jpg"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/depictions/com.ug.colourful13/screenshots/Page%202.jpg"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/depictions/com.ug.colourful13/screenshots/Page%203.jpg"
+         }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "Requires",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "Snowboard, Anemone",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.7",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "25/09/2020",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "UGz R3PO",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+   {
+          "title": "v1.7",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Changed Bundle ID",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}

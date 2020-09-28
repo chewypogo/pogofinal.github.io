@@ -1,0 +1,155 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/unkn0wen-guy/repo/master/sileodepictions/MIHeader.png",
+  "tintColor": "#69a8fa",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "Audio Visualizer for iOS",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "This is a fork of Nepeta's excellent tweak - [MitsuhaInfinity](https://github.com/c0ldra1n/Mitsuha2) with support for iOS 13 + bug fixes.\n\nFor support / to report a bug [join my discord server](https://oh-my-god.wtf/conorthedev)",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+            "class": "DepictionScreenshotsView",
+            "itemSize": "{160, 275.41333333333336}",
+            "itemCornerRadius": 6,
+            "screenshots": [
+         {
+            "accessibilityText": "Screenshot",
+            "url": "https://unkn0wen-guy.github.io/repo/depictions/me.nepeta.mitsuhainfinity/screenshots/lockscreen.png"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://unkn0wen-guy.github.io/repo/depictions/me.nepeta.mitsuhainfinity/screenshots/music.jpg"
+         },
+         {
+            "accessibilityText": "Screenshot",
+             "url": "https://unkn0wen-guy.github.io/repo/depictions/me.nepeta.mitsuhainfinity/screenshots/spotify.jpg"
+         }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Compatibility",
+          "class": "DepictionHeaderView"
+        },
+        {
+         "markdown": "* Apple Music\n\n* Spotify\n\n* iOS audio player notification (global)",
+         "useSpacing": true,
+         "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "0.2",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Updated",
+          "text": "18/12/2019",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "ConorTheDev",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Contact Support",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Twitter",
+          "action": "https://twitter.com/AmazinOw3n",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "title": "Discord",
+          "action": "https://discord.gg/vxNzqUm",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "v0.2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Fix Spotify and Apple Music Integrations",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v0.1.8-3",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Make depiction show and update preferences pane",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+    		{
+          "title": "v0.1.8-2",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Add support for iOS 13",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
